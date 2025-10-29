@@ -15,7 +15,7 @@ let nivel;   //variável para receber o nível
         {nivel = "Ascendente";}
      else if (XP >= 9001 && XP <= 10000)
         {nivel = "Imortal";}
-     else //(XP >= 10001)
+     else //(XP >= 10001) precisei remover essa condição, o valor de xp estava sempre travado em radiante.
         {nivel = "Radiante";}
 
 console.log("O Herói de nome " + heroi + " está no nível de " + nivel);
